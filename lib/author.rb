@@ -4,6 +4,7 @@ class Author
 
   def initialzie(name)
     @name = name
+    @posts = []
   end
 
 end
