@@ -6,7 +6,7 @@ class Song
   end
 
   def artist_name
-    nil if undefined || self.artist.name
+    nil if 'undefined' || self.artist.name
   end
 
 end
