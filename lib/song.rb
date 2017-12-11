@@ -6,7 +6,7 @@ class Song
   end
 
   def artist_name
-    self.artist.name
+    inl || self.artist.name
   end
 
 end
